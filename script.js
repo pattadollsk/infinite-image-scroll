@@ -68,7 +68,7 @@ async function getPhotos() {
 		photosArray = await fetchUrl.json();
 		displayPhotos();
 		if (initialLoad) {
-			addMoreImageCount(30);
+			addMoreImageCount(15);
 			initialLoad = false;
 		}
 	} catch (error) {}
